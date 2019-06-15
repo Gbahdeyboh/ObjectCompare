@@ -19,6 +19,41 @@ npm run start
 npm run test
 ```
 
-Go through the test file to see examples of complex objects it can compare.
+The package has also been published as an npm module and can be used.
+
+### Installation
+
+```javascript
+npm install --save compare-object
+```
+
+After installing the module, you can require it as shown
+
+```javascript
+const objCompare = require('compare-object');
+const a = {
+a: 1,
+b: 'string',
+c: true,
+d: () => 'wooow!!',
+e: new Date(15, 7, 2019),
+f: new RegExp('Gbadebo', 'gi'),
+g: new Set([1, 2, 3, 4]),h: [1, 2, 3, true, "gbadebo", new Date(15, 7, 2019), new Set([4, 5, 6, 7])]
+
+
+const b = {
+f: new RegExp('Gbadebo', 'gi'),
+c: true,e: new Date(15, 7, 2019),
+h: [1, 2, 3, true, "gbadebo", new Date(15, 7, 2019), new Set([4, 5, 6, 7])],
+b: 'string'
+g: new Set([1, 2, 3, 4]),d: () => 'wooow!!',
+a: 1}
+
+console.log(objCompare(a, b)) //returns true
+```
+
+##### I have written an article that explains how everything here works under the hood, the article can be found
+
+[here](https://link.medium.com/BSTOFSGfyX)
 
 ### Thank you!

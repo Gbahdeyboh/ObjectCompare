@@ -2,7 +2,7 @@
  * @author - Bello Gbadebo 
  * @description - This module does a deep comparism between two Objects and return true if they match 
  * licence - https://github.com/Gbahdeyboh/ObjectCompare/blob/master/LICENSE
- * It supports the following types of Objects - Objects, Strings, Numbers, Functions, Booleans, Arrays, Sets and Dates 
+ * It supports the following types of Objects - Objects, Strings, Numbers, Functions, Booleans, Arrays, RegExp Sets and Dates 
  */
 
 function reject(msg) {
