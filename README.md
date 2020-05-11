@@ -11,10 +11,10 @@ This little project could also serve as a good learning resource for anyone who 
 #### Install dependencies
 `npm install`
 
-#### run the script
+#### Run the script
 `npm run start`
 
-#### to run test's
+#### Run unit tests
 `npm run test`
 
 The package has also been published as an npm module and can be used.
