@@ -8,8 +8,8 @@ This little project could also serve as a good learning resource for anyone who 
 
 ## Build Setup
 
-#### install dependencies
-`npm install --save`
+#### Install dependencies
+`npm install`
 
 #### run the script
 `npm run start`
